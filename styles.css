@@ -5,6 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Cellphone */
+
+/* Default styles for all screen sizes */
+  
+
 html {
     scroll-behavior: smooth;
   }
@@ -121,9 +126,10 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position:absolute;
-    top: 1500px;
-    left: 250px;
+    position:relative;
+    bottom: 300px;
+    left: 100px;
+    
 }
 
 .expertise__column {
@@ -132,6 +138,7 @@ nav a:hover {
     border-radius: 25px;
     text-align:center;
     height: 1100px;
+    
 }
 
 .design__logo {
@@ -452,4 +459,173 @@ form input::placeholder {
     color: white;
     transition-delay: 0.05s;
     cursor:pointer;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    /* Styles for screens with a maximum width of 600px (typical for mobile devices) */
+
+    
+    .about-me div p {
+        position: relative;
+        right: 650px;;
+        margin: 0 25px;
+        
+    }
+
+    .expertise {
+        width: 100%;
+        height: 1050px;
+    }
+    
+    .about-me div {
+        position:relative;
+        width:100%;
+        height: auto;
+    }
+
+    .expertise__column {
+        position:relative;
+        top: 200px;
+        width: 250px;
+        height: 1100px;
+        text-align: center;
+    }
+
+    .my-work {
+        text-align:center
+    }
+
+    .my-work__title {
+        position:relative;
+        right: 60px;
+        width: 320px;
+    }
+
+    .expertise__column1 {
+        margin-left: 340px;
+    }
+
+    .description {
+        width: 20px;
+    }
+
+    .expertise__column p {
+        width: 75vh;
+        position: relative;
+        right: 100px;
+        
+    }
+
+    .expertise__container {
+        position: relative; 
+        height: 1000px;
+        width: 260px;
+    }   
+
+    .app {
+        width: 40vw;
+        height: 40vh
+    }
+
+
+
+    .car__image {
+        position:relative;
+        top: 20px;
+        width: 70%;
+        height: auto;
+    }
+
+    .book__image {
+        position:relative;
+        bottom: 10px;
+        width: 150px;
+        height: auto;
+    }
+
+    .pictures__image {
+        width: 200px;
+        height: auto;
+        position:relative;
+        bottom: 30px;
+    }
+
+    .animals__image {
+        width: 150px;
+        height: auto;
+        position: relative;
+        top: 15px;
+    }
+
+    .movie-and-song__image {
+        width: 80px;
+        height: auto;
+        position:relative;
+        top: 15px;
+        left: 10px;
+    }
+
+    .my-work__first-row {
+        position:relative;
+        right: 200px;
+        width: 100vw;
+    }
+
+    .my-work__second-row {
+        position:relative;
+        right: 200px;
+        width: 100vw;
+    }
+
+    .my-work__button {
+        width: 50vw;
+        position: relative;
+        top: 40px;
+        right: 50px;
+    }
+
+    .my-work {
+        height: 1000px;
+    }
+
+    .contact__title {
+        height: 150px;
+    }
+
+    .contact-me {
+        height: 900px;
+    }
+
+    .contact-me form {
+        position: relative;
+        right: 390px;
+        top: 30px;
+    }
+
+    .email input {
+        margin-right: 150px;
+    }
+
+    .name input {
+        margin-right: 10px;
+    }
+
+    .message input{
+        width: 100vw;
+    }
+
+    .submit-div {
+        position:relative;
+        left: 190px;
+    }
+
+    .contact__title h3 {
+        width: 100vw;
+        height: auto;
+        position:relative;
+        right: 700px;
+    }
+  
+    /* Add more styles as needed for better mobile presentation */
   }
